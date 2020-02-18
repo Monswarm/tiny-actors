@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B4992177
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyActors.Tests", "tests\TinyActors.Tests\TinyActors.Tests.csproj", "{D3EF008D-8AAB-48D8-9C8D-4B485323FD30}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "benchmarks", "benchmarks", "{A830C5CD-362F-4E13-84C7-E0662C144C1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyActors.Benchmarks", "benchmarks\TinyActors.Benchmarks\TinyActors.Benchmarks.csproj", "{D7F7E0D1-04F9-4137-91F0-EE01821A5440}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,9 +52,22 @@ Global
 		{D3EF008D-8AAB-48D8-9C8D-4B485323FD30}.Release|x64.Build.0 = Release|Any CPU
 		{D3EF008D-8AAB-48D8-9C8D-4B485323FD30}.Release|x86.ActiveCfg = Release|Any CPU
 		{D3EF008D-8AAB-48D8-9C8D-4B485323FD30}.Release|x86.Build.0 = Release|Any CPU
+		{D7F7E0D1-04F9-4137-91F0-EE01821A5440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7F7E0D1-04F9-4137-91F0-EE01821A5440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7F7E0D1-04F9-4137-91F0-EE01821A5440}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D7F7E0D1-04F9-4137-91F0-EE01821A5440}.Debug|x64.Build.0 = Debug|Any CPU
+		{D7F7E0D1-04F9-4137-91F0-EE01821A5440}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D7F7E0D1-04F9-4137-91F0-EE01821A5440}.Debug|x86.Build.0 = Debug|Any CPU
+		{D7F7E0D1-04F9-4137-91F0-EE01821A5440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7F7E0D1-04F9-4137-91F0-EE01821A5440}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7F7E0D1-04F9-4137-91F0-EE01821A5440}.Release|x64.ActiveCfg = Release|Any CPU
+		{D7F7E0D1-04F9-4137-91F0-EE01821A5440}.Release|x64.Build.0 = Release|Any CPU
+		{D7F7E0D1-04F9-4137-91F0-EE01821A5440}.Release|x86.ActiveCfg = Release|Any CPU
+		{D7F7E0D1-04F9-4137-91F0-EE01821A5440}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7164A3FD-B697-4D98-8BFD-7A7459567B30} = {6120418A-1494-4DBB-94B5-C5A603797DD5}
 		{D3EF008D-8AAB-48D8-9C8D-4B485323FD30} = {B4992177-2436-4F30-AA28-F27AE17617B1}
+		{D7F7E0D1-04F9-4137-91F0-EE01821A5440} = {A830C5CD-362F-4E13-84C7-E0662C144C1B}
 	EndGlobalSection
 EndGlobal
